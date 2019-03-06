@@ -1,13 +1,22 @@
-## QS:
 '''
-Given a tel no. 'tel' with format in digits, dashes '-' or spaces ' '
-Assume that the tel must contains at least 2 digits
-Example: "339 - 3921 2042" -> "339-392-120-42"
+ Date: 2019/03/05
+ Company: __DAY (Codility)
+ Time given: 30-45 mins
+ Time used : 15 mins
 
-Requirement of Reformat:
-1. 3 digits in a group
-2. seperate each group with '-', remove other dashes or spaces
-3. the last one or two groups can be with 2 digits if necessaries
+ Question:
+    Given a tel no. 'tel' with format in digits, dashes '-' or spaces ' '
+    Assume that the tel must contains at least 2 digits
+
+
+    Reformat tel with the following requirements:
+        1. 3 digits in a group
+        2. seperate each group with '-', remove other dashes or spaces
+        3. the last one or two groups can be with 2 digits if necessaries
+
+ Example: "339 - 3921 2042"  -> "339-392-120-42"
+          "339 - 3921 204"   -> "339-392-12-04"
+          "3 3-939-212-0422" -> "339-392-120-422"
 '''
 import sys
 
